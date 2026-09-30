@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+obt:
+  jwt:
+    secret: order-booking-poc-secret-change-me-min-256-bits-please!!
+    ttl-hours: 12
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
